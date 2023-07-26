@@ -102,6 +102,8 @@ body{
 }
 .classOverviewContainer {
     margin-top:35px;
+    border-bottom: 1px solid gray;
+    padding-bottom:5%;
 }
 .classOverviewContainer h1{
     font-size:24px;
@@ -112,6 +114,7 @@ body{
 .classOverviewContainer p{
     color: gray;
     font-size: 14px;
+    
 }
 .classOverviewText p{
     font-size: 18px;
@@ -149,6 +152,110 @@ body{
     display: none;
     font-weight: bold;
 }
+.applyWhatYouLearnContainer{
+    margin-top:5%;
+    font-family: 'PT Serif', serif;
+    border-bottom: 1px solid gray;
+    padding-bottom:5%;
+
+}
+.applyWhatYouLearnContainer p{
+    color: gray;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    
+}
+#applyText{
+    color:black;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+.whoContainer{
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding-bottom:5%;
+    
+}
+
+.whoContainer > div{
+    
+    display: flex;
+    flex:100%;
+    width:100%;
+    border:0.1px solid gray;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.whoContainer > div > div{
+    display:flex;
+    
+}
+
+.whoNum{
+    flex:10%;
+    justify-content: center;
+    
+}
+.whoNum span{
+    background-color: rgb(92, 92, 92);
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+    color: white;
+}
+.whoText{
+    flex:90%;
+}
+
+.meetMarriContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top:8%;
+    border-bottom: 1px solid gray;
+    padding-bottom:5%;
+}
+.meetMarriLeft{
+    display:flex;
+    flex-direction: column;
+    flex:40%;
+    
+}
+.meetMarriRight{
+    flex:60%;
+}
+.meetMarriImage{
+    flex:50%;
+}
+.meetMarriImage img{
+    border-radius: 8px;
+    width: 300px;
+    height:350px;
+}
+.meetMarriSocials{
+    display:flex;
+    flex:50%;
+    margin-top: 15px;
+    margin-right: 25px;
+    
+}
+.meetMarriSocials > div{
+    flex:25%;
+    text-align: center;
+}
+
+
+
+
 
 
     
