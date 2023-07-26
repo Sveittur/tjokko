@@ -11,6 +11,7 @@ body{
     width:100%;
     justify-content: center;
     align-items: center;
+    font-family: 'PT Serif', serif;
 }
 .border{
     width:100%;
@@ -39,7 +40,6 @@ body{
 
 .leftContainer h1{
     font-size: 35px;
-    font-family:'Maison-Neue',sans-serif;
     text-transform: uppercase; 
 }
 .introContainer{
@@ -100,7 +100,9 @@ body{
 .learnItem span{
     font-size: 18px;
 }
-
+.classOverviewContainer {
+    margin-top:35px;
+}
 .classOverviewContainer h1{
     font-size:24px;
     margin-top:5%;
@@ -114,6 +116,38 @@ body{
 .classOverviewText p{
     font-size: 18px;
     color:black;
+}
+
+.moreText{
+    display: none;
+}
+.showMoreText{
+    display:inline;
+    
+
+}
+.readMoreBtn{
+    font-family:'PT Serif', serif ;
+    margin-left:5px;
+    font-size: 16px;
+    text-decoration: underline;
+    padding:0;
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-weight: bold;
+}
+.readLessBtn{
+    font-family:'PT Serif', serif ;
+    margin-left:5px;
+    font-size: 16px;
+    text-decoration: underline;
+    padding:0;
+    border:none;
+    background:none;
+    cursor:pointer;
+    display: none;
+    font-weight: bold;
 }
 
 
