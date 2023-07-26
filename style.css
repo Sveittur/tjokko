@@ -2,37 +2,52 @@
     font-family: 'Maison-Neue';
     src: url(fonts/Maison\ Neue\ Bold.ttf);
 }
+body{
+    margin:0;
+    padding:0;
+
+}
 .container{
-    position:fixed;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
     width:100%;
     justify-content: center;
     align-items: center;
+}
+.border{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+.border span{
+    display:flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;
+    
 }
 .leftContainer{
     position: absolute;
     display: block;
     text-align: left;
-    width: 40%;
+    width: 800px;
     left: 15%;
     top:10%;
-    white-space: wrap;
+
    
     
 }
+
 .leftContainer h1{
     font-size: 35px;
     font-family:'Maison-Neue',sans-serif;
     text-transform: uppercase; 
 }
-
 .introContainer{
     display: block;
     font-size: 20px;
+    
 }
+
 
 .taughtByContainer{
     display: flex;
@@ -85,5 +100,21 @@
 .learnItem span{
     font-size: 18px;
 }
+
+.classOverviewContainer h1{
+    font-size:24px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.classOverviewContainer p{
+    color: gray;
+    font-size: 14px;
+}
+.classOverviewText p{
+    font-size: 18px;
+    color:black;
+}
+
 
     
