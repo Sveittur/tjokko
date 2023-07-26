@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Maison-Neue';
+    src: url(fonts/Maison\ Neue\ Bold.ttf);
+}
+.container{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.leftContainer{
+    position: absolute;
+    display: block;
+    text-align: left;
+    width: 40%;
+    left: 15%;
+    top:10%;
+    white-space: wrap;
+   
+    
+}
+.leftContainer h1{
+    font-size: 35px;
+    font-family:'Maison-Neue',sans-serif;
+    text-transform: uppercase; 
+}
+
+.introContainer{
+    display: block;
+    font-size: 20px;
+}
+
+.taughtByContainer{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding-bottom:5%;
+    
+}
+.taughtByP{
+    color: gray;
+    font-size: 14px;
+}
+.taughtByimage{
+    display: flex;
+    flex-direction: row;
+}
+
+.taughtByimage img{
+    border-radius: 10px;
+    width: 110px;
+    height:80px;
+}
+.taughtByText{
+    margin-left:2%;
+}
+.taughtByText h2{
+    margin:0;
+}
+.taughtByText p{
+  margin-top: 1%;
+}
+.learnContainer{
+    border-bottom: 1px solid gray;
+    padding-bottom: 5%;
+}
+.learnContainer h1{
+    font-size:24px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.learnItemsContainer{
+    display:flex;
+    flex-wrap: wrap;
+}
+.learnItemsContainer > div{
+    flex:46%;
+    margin-bottom: 3%;
+    margin-left:2%;
+}
+.learnItem span{
+    font-size: 18px;
+}
+
+    
