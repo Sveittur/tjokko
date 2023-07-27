@@ -260,6 +260,7 @@ a
 
 .rightContainer{
     position:sticky;
+    position: -webkit-sticky;
     display: flex;
     flex:45%;
     flex-direction: column;
@@ -299,6 +300,7 @@ a
     font-size: 18px;
     width: 75%;
     margin-top:40px;
+    cursor: pointer;
 }
 .includedContainer{
     margin-left:15px;
@@ -312,6 +314,45 @@ a
 .includedContainer h3{
     font-size: 14px;
     margin-left: 15px;
+}
+
+.popup{
+    background:rgba(0,0,0,0.6);
+    background:rgb(235, 235, 235);
+    top: 35%;
+    left: 50%;
+    width: 30em;
+    height: 40em;
+    margin-top: -9em;
+    margin-left: -15em;
+    border: 1px solid rgb(156, 156, 156);
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.popupContent{
+    height: 250px;
+    width: 500px;
+    background: white;
+    padding:20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.inputField{
+    margin:15px;
+}
+
+.closeButton{
+    background:none;
+    border:0;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
 }
 
 @media all and (max-width: 1650px) {
